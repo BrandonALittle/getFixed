@@ -1,6 +1,5 @@
 import React from 'react';
 import Problem from './problem.jsx';
-import Username from './username.jsx';
 import { Card } from 'semantic-ui-react';
 
 const ProblemsView = ({problems}) => (

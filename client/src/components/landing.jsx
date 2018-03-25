@@ -25,7 +25,7 @@ const filters = [
   }
 ]
 
-const LandingQL = () => (
+const Landing = () => (
 
   <Query query={gql`
     query getProblems {
@@ -69,4 +69,4 @@ const LandingQL = () => (
     </Query>
 )
 
-export default LandingQL;
+export default Landing;
